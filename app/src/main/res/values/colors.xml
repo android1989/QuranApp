@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="cardview1">#fbd835</color>
+    <color name="cardview2">#29c2d4</color>
+    <color name="cardview3">#ff30c2</color>
+    <color name="cardview4">#ed7358</color>
+    <color name="cardview5">#1ed634</color>
+    <color name="cream_color">#f6e7c4</color>
+
+</resources>

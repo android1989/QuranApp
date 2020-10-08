@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_image"
+    tools:context=".SelectMasjidActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Select Masjid"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:src="@drawable/app_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/heading"
+        android:layout_marginStart="5dp"/>
+
+    <Spinner
+        android:id="@+id/select_masjid_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="20dp"
+        style="@style/spinner_style"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_masjid_spinner"
+        android:layout_centerHorizontal="true"
+        android:text="submit"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/circular_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Prayer Time"
+            android:id="@+id/menu_prayer_time"
+            android:icon="@drawable/prayer_icon_24"/>
+        <item
+            android:title="Qibla Direction"
+            android:id="@+id/menu_qibla_direction"
+            android:icon="@drawable/qibla_direction_24"/>
+
+        <item
+            android:title="Donation Box"
+            android:id="@+id/menu_donation_box"
+            android:icon="@drawable/donation_box_icon"
+            />
+
+        <item
+            android:title="Quran Recitation"
+            android:id="@+id/menu_quran_recitation"
+            android:icon="@drawable/quran_recitation_24"/>
+
+        <item
+            android:title="Masjid Gallery"
+            android:id="@+id/menu_masjid_gallery"
+            android:icon="@drawable/masjid_gallery_24"/>
+
+    </group>
+
+
+</menu>
